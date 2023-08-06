@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DependencyInversion\DependencyInversion.csproj" />
+    <ProjectReference Include="..\EncapsulateWhatVaries\EncapsulateWhatVaries.csproj" />
+    <ProjectReference Include="..\InterfaceSegregation\InterfaceSegregation.csproj" />
+    <ProjectReference Include="..\LiskovSubstitution\LiskovSubstitution.csproj" />
+    <ProjectReference Include="..\Loose Vs. Tight Coupling\Loose Vs. Tight Coupling.csproj" />
+    <ProjectReference Include="..\OpenClosed\OpenClosed.csproj" />
+    <ProjectReference Include="..\SingleResponsibility\SingleResponsibility.csproj" />
+  </ItemGroup>
+
+</Project>
